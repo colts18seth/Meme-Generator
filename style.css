@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body, .container {
@@ -12,22 +13,38 @@ body, .container {
 
 .container {
   background-color: rgb(180, 180, 180);
-  width: 900px;
-  height: 200px;
+  width: 90%;
+  height: 50vh;
 }
 
 h1 { 
   font-size: 4rem;
-  margin: 3%;
+  margin: 2rem;
 }
 
 input {
   font-size: 20px;
+  border: 1px solid black;
+  padding: 2px;
+  margin: 2px;
+}
+
+select {
+  width: 249.5px;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 2px;
+  margin: 2px;
+}
+
+input[type = "submit"] {
+  font-weight: bold;
+  border: 2px solid black;
 }
 
 ul {
   list-style: none;
-  margin: 2%; 
+  margin: 2rem; 
 }
 
 li p {
